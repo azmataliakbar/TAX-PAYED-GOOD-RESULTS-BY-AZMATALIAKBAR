@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Every Receipt Matters — From Tax to Progress">
+<meta name="author" content="Azmat Ali">
+<title>Every Receipt Matters — From Tax to Progress</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVIGATION
+     ═══════════════════════════════════════════ -->
+<nav class="navbar" aria-label="Main navigation">
+  <div class="nav-brand">⚖️ Every Receipt Matters</div>
+  <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+    <span class="hamburger"></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#message">Message</a></li>
+    <li><a href="#scenarios">Scenarios</a></li>
+    <li><a href="#revenue">Revenue</a></li>
+    <li><a href="#paths">Two Paths</a></li>
+    <li><a href="#responsibility">Responsibility</a></li>
+    <li><a href="#govt">Govt Advice</a></li>
+    <li><a href="#beyond">Think Beyond</a></li>
+    <li><a href="#end">End</a></li>
+  </ul>
+</nav>
+
+<!-- ═══════════════════════════════════════════
+     1. HERO SECTION
+     ═══════════════════════════════════════════ -->
+<section id="hero" class="hero">
+  <div class="hero-bg">
+    <div class="floating-dot" style="--x:10%;--y:20%;--size:8px;--delay:0s;--color:#3b82f6"></div>
+    <div class="floating-dot" style="--x:80%;--y:30%;--size:12px;--delay:1s;--color:#10b981"></div>
+    <div class="floating-dot" style="--x:50%;--y:70%;--size:10px;--delay:2s;--color:#8b5cf6"></div>
+    <div class="floating-dot" style="--x:20%;--y:80%;--size:6px;--delay:0.5s;--color:#06b6d4"></div>
+    <div class="floating-dot" style="--x:90%;--y:60%;--size:14px;--delay:1.5s;--color:#f59e0b"></div>
+    <div class="floating-dot" style="--x:30%;--y:10%;--size:7px;--delay:2.5s;--color:#ec4899"></div>
+    <div class="floating-dot" style="--x:70%;--y:90%;--size:9px;--delay:3s;--color:#14b8a6"></div>
+    <div class="floating-dot" style="--x:60%;--y:40%;--size:11px;--delay:0.8s;--color:#6366f1"></div>
+  </div>
+  <div class="hero-content">
+    <h1 class="hero-title">Every Receipt Matters</h1>
+    <p class="hero-subtitle">Small transactions can build big futures.</p>
+    <p class="hero-text">When lawful taxes are properly collected, recorded, and responsibly used, everyday transactions can contribute to stronger public services, better infrastructure, healthier communities, and greater opportunities for future generations.</p>
+    <div class="flow-visual">
+      <div class="flow-step">
+        <span class="flow-icon">🛒</span>
+        <span class="flow-label">Purchase</span>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step">
+        <span class="flow-icon">🧾</span>
+        <span class="flow-label">Receipt</span>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step">
+        <span class="flow-icon">💰</span>
+        <span class="flow-label">Tax Revenue</span>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step">
+        <span class="flow-icon">🏥</span>
+        <span class="flow-label">Public Services</span>
+      </div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-step">
+        <span class="flow-icon">🌟</span>
+        <span class="flow-label">Community Progress</span>
+      </div>
+    </div>
+    <a href="#scenarios" class="hero-cta">Explore Scenarios</a>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     2. IMPORTANT MESSAGE
+     ═══════════════════════════════════════════ -->
+<section id="message" class="message-section">
+  <div class="container">
+    <div class="message-card">
+      <div class="message-icon-group">
+        <span class="msg-icon pulse">🧾</span>
+        <span class="msg-icon pulse" style="--delay:0.5s">💰</span>
+        <span class="msg-icon pulse" style="--delay:1s">🏥</span>
+        <span class="msg-icon pulse" style="--delay:1.5s">🛣️</span>
+        <span class="msg-icon pulse" style="--delay:2s">🎓</span>
+        <span class="msg-icon pulse" style="--delay:2.5s">🌳</span>
+      </div>
+      <h2 class="message-title">A Receipt Is More Than Paper</h2>
+      <p class="message-text">
+        A proper receipt creates a transparent record of a transaction. When applicable taxes are correctly charged, reported, and paid, public revenue can be collected. When transactions are intentionally hidden or under-reported, public revenue may be lost.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     3. INTERACTIVE SCENARIOS
+     ═══════════════════════════════════════════ -->
+<section id="scenarios" class="scenarios-section">
+  <div class="container">
+    <h2 class="section-heading">Interactive Scenarios</h2>
+    <p class="section-subheading">Each scenario illustrates the difference between improper and proper tax reporting.</p>
+
+    <div class="scenario-grid">
+
+      <!-- SCENARIO 1: RESTAURANT -->
+      <div class="scenario-card" data-scenario="1">
+        <div class="scenario-header">
+          <span class="scenario-emoji">🍽️</span>
+          <h3 class="scenario-title">Scenario 1: Dining at a Restaurant</h3>
+        </div>
+        <p class="scenario-intro">Consider a restaurant transaction where a customer receives a choice between a lower amount without a proper registered receipt and a higher amount with a complete, lawful receipt containing the required business and transaction details.</p>
+        <button class="scenario-btn" aria-expanded="false" aria-controls="scenario-1-content">Explore This Scenario</button>
+        <div class="scenario-content" id="scenario-1-content" hidden>
+          <img src="img15.png" alt="Restaurant Transaction" class="scenario-img">
+          <div class="scenario-panels">
+            <div class="panel panel-bad">
+              <h4 class="panel-title">❌ When Tax Is Not Properly Reported</h4>
+              <p>A lower unofficial or incomplete transaction record may mean that part of the transaction is not properly reported. This can reduce public revenue and weaken the transparency of the business transaction.</p>
+              <div class="flow-mini">
+                <span>Less Revenue</span><span>→</span><span>Fewer Resources</span><span>→</span><span>Slower Development</span>
+              </div>
+            </div>
+            <div class="panel panel-good">
+              <h4 class="panel-title">✅ When Tax Is Properly Reported</h4>
+              <p>A proper receipt records the transaction transparently and, where tax applies, supports correct tax reporting and collection.</p>
+              <div class="flow-mini">
+                <span>Proper Receipt</span><span>→</span><span>Tax Collection</span><span>→</span><span>Public Revenue</span><span>→</span><span>Public Services</span>
+              </div>
+            </div>
+          </div>
+          <button class="close-btn" aria-label="Close scenario">Close Scenario</button>
+        </div>
+      </div>
+
+      <!-- SCENARIO 2: GOLD SHOP -->
+      <div class="scenario-card" data-scenario="2">
+        <div class="scenario-header">
+          <span class="scenario-emoji">💍</span>
+          <h3 class="scenario-title">Scenario 2: Purchasing Gold Jewellery</h3>
+        </div>
+        <p class="scenario-intro">Consider a jewellery purchase where a buyer is offered a lower price without a complete lawful receipt or a properly documented transaction at the applicable amount.</p>
+        <button class="scenario-btn" aria-expanded="false" aria-controls="scenario-2-content">Explore This Scenario</button>
+        <div class="scenario-content" id="scenario-2-content" hidden>
+          <img src="img16.jpg" alt="Gold Jewellery Purchase" class="scenario-img">
+          <div class="scenario-panels">
+            <div class="panel panel-bad">
+              <h4 class="panel-title">❌ When Tax Is Not Properly Reported</h4>
+              <p>An undocumented or under-reported transaction can reduce transparency and may result in public revenue being lost.</p>
+              <div class="flow-mini">
+                <span>Unreported</span><span>→</span><span>Lost Revenue</span><span>→</span><span>Fewer Resources</span>
+              </div>
+            </div>
+            <div class="panel panel-good">
+              <h4 class="panel-title">✅ When Tax Is Properly Reported</h4>
+              <p>A complete and lawful receipt provides a clear record of the purchase and supports correct reporting of applicable taxes.</p>
+              <div class="flow-mini">
+                <span>Proper Receipt</span><span>→</span><span>Correct Reporting</span><span>→</span><span>Public Revenue</span><span>→</span><span>Public Benefit</span>
+              </div>
+            </div>
+          </div>
+          <button class="close-btn" aria-label="Close scenario">Close Scenario</button>
+        </div>
+      </div>
+
+      <!-- SCENARIO 3: CONSTRUCTION -->
+      <div class="scenario-card" data-scenario="3">
+        <div class="scenario-header">
+          <span class="scenario-emoji">🏗️</span>
+          <h3 class="scenario-title">Scenario 3: Building a Home</h3>
+        </div>
+        <p class="scenario-intro">Consider purchasing construction materials where a supplier offers a lower price without a complete lawful receipt or offers a properly documented transaction at the applicable amount.</p>
+        <button class="scenario-btn" aria-expanded="false" aria-controls="scenario-3-content">Explore This Scenario</button>
+        <div class="scenario-content" id="scenario-3-content" hidden>
+          <img src="img17.png" alt="Construction Materials" class="scenario-img">
+          <div class="scenario-panels">
+            <div class="panel panel-bad">
+              <h4 class="panel-title">❌ When Tax Is Not Properly Reported</h4>
+              <p>Repeated under-reporting across construction transactions can reduce public revenue and weaken the resources available for infrastructure and public services.</p>
+              <div class="flow-mini">
+                <span>Hidden Transactions</span><span>→</span><span>Reduced Revenue</span><span>→</span><span>Reduced Resources</span>
+              </div>
+            </div>
+            <div class="panel panel-good">
+              <h4 class="panel-title">✅ When Tax Is Properly Reported</h4>
+              <p>A properly documented purchase creates transparency and allows applicable taxes to be correctly reported and collected.</p>
+              <div class="flow-mini">
+                <span>Proper Documentation</span><span>→</span><span>Correct Tax Collection</span><span>→</span><span>Infrastructure &amp; Services</span>
+              </div>
+            </div>
+          </div>
+          <button class="close-btn" aria-label="Close scenario">Close Scenario</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     4. WHERE DOES PUBLIC REVENUE GO?
+     ═══════════════════════════════════════════ -->
+<section id="revenue" class="revenue-section">
+  <div class="container">
+    <h2 class="section-heading">Where Does Public Revenue Go?</h2>
+    <p class="section-subheading">When taxes are properly collected, public revenue can fund essential services and infrastructure.</p>
+    <div class="revenue-grid">
+      <div class="revenue-card">
+        <img src="img18.jpg" alt="Healthcare Infrastructure" class="revenue-img">
+        <h3>Healthcare</h3>
+        <p>Better resources for hospitals and healthcare services.</p>
+      </div>
+      <div class="revenue-card">
+        <img src="img19.jpg" alt="Road Infrastructure" class="revenue-img">
+        <h3>Roads</h3>
+        <p>Infrastructure maintenance and development.</p>
+      </div>
+      <div class="revenue-card">
+        <img src="img20.jpg" alt="Transportation Infrastructure" class="revenue-img">
+        <h3>Transportation</h3>
+        <p>Potential investment in railways and public transportation.</p>
+      </div>
+      <div class="revenue-card">
+        <img src="img21.jpg" alt="Airport Infrastructure" class="revenue-img">
+        <h3>Airports</h3>
+        <p>Infrastructure that can support connectivity and economic activity.</p>
+      </div>
+      <div class="revenue-card">
+        <img src="img22.jpg" alt="Education Infrastructure" class="revenue-img">
+        <h3>Education</h3>
+        <p>Schools, learning facilities, and educational resources.</p>
+      </div>
+      <div class="revenue-card">
+        <img src="img23.jpg" alt="Public Parks" class="revenue-img">
+        <h3>Public Parks</h3>
+        <p>Cleaner and safer public spaces.</p>
+      </div>
+      <div class="revenue-card">
+        <img src="img24.jpg" alt="Urban Development" class="revenue-img">
+        <h3>Cities</h3>
+        <p>Urban development and essential municipal services.</p>
+      </div>
+      <div class="revenue-card">
+        <img src="img25.jpg" alt="Tourism Infrastructure" class="revenue-img">
+        <h3>Tourism</h3>
+        <p>Infrastructure and public spaces that can support tourism.</p>
+      </div>
+    </div>
+    <div class="gov-disclaimer">
+      <p>⚠️ <strong>Tax revenue alone does not guarantee development.</strong> Good governance, transparency, efficient spending, accountability, and responsible public administration are also essential.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     5. TWO PATHS
+     ═══════════════════════════════════════════ -->
+<section id="paths" class="paths-section">
+  <div class="container">
+    <h2 class="section-heading">Two Paths</h2>
+    <div class="paths-container">
+      <div class="path path-bad">
+        <div class="path-header">❌ WHEN TAXES ARE NOT PROPERLY REPORTED</div>
+        <div class="path-flow">
+          <div class="path-step">Transaction</div>
+          <div class="path-arrow">→</div>
+          <div class="path-step">Missing Record</div>
+          <div class="path-arrow">→</div>
+          <div class="path-step">Revenue Loss</div>
+          <div class="path-arrow">→</div>
+          <div class="path-step">Fewer Resources</div>
+          <div class="path-arrow">→</div>
+          <div class="path-step">Development Challenges</div>
+        </div>
+        <div class="path-images">
+          <div class="path-img-row path-img-row-large">
+            <img src="img1.jpg" alt="Deteriorating Infrastructure" class="path-img path-img-large">
+            <img src="img2.jpg" alt="Poorly Maintained Roads" class="path-img path-img-large">
+          </div>
+          <div class="path-img-row path-img-row-small">
+            <img src="img3.jpg" alt="Limited Public Facilities" class="path-img path-img-small">
+            <img src="img13.jpg" alt="Underfunded Public Services" class="path-img path-img-small">
+            <img src="img4.jpg" alt="Neglected Public Spaces" class="path-img path-img-small">
+          </div>
+        </div>
+      </div>
+      <div class="path-divider"></div>
+      <div class="path path-good">
+        <div class="path-header">✅ WHEN TAXES ARE PROPERLY REPORTED</div>
+        <div class="path-flow">
+          <div class="path-step">Transaction</div>
+          <div class="path-arrow">→</div>
+          <div class="path-step">Proper Receipt</div>
+          <div class="path-arrow">→</div>
+          <div class="path-step">Correct Reporting</div>
+          <div class="path-arrow">→</div>
+          <div class="path-step">Public Revenue</div>
+          <div class="path-arrow">→</div>
+          <div class="path-step">Responsible Investment</div>
+          <div class="path-arrow">→</div>
+          <div class="path-step">Better Services</div>
+        </div>
+        <div class="path-images">
+          <div class="path-img-row path-img-row-large">
+            <img src="img5.jpg" alt="Modern Hospitals" class="path-img path-img-large">
+            <img src="img6.jpg" alt="Maintained Roads" class="path-img path-img-large">
+          </div>
+          <div class="path-img-row path-img-row-small">
+            <img src="img7.jpg" alt="Railway Networks" class="path-img path-img-small">
+            <img src="img8.jpg" alt="Airports" class="path-img path-img-small">
+            <img src="img9.jpg" alt="Public Parks" class="path-img path-img-small">
+          </div>
+          <div class="path-img-row path-img-row-small">
+            <img src="img10.jpg" alt="Modern Buildings" class="path-img path-img-small">
+            <img src="img11.jpg" alt="Tourism Infrastructure" class="path-img path-img-small">
+            <img src="img12.jpg" alt="Clean Urban Environments" class="path-img path-img-small">
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="paths-disclaimer">These images are illustrative. Development depends on many factors, including governance, economic policy, investment, accountability, and effective use of public revenue.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     6. EVERY SIDE HAS A RESPONSIBILITY
+     ═══════════════════════════════════════════ -->
+<section id="responsibility" class="responsibility-section">
+  <div class="container">
+    <h2 class="section-heading">Every Side Has a Responsibility</h2>
+    <div class="resp-grid">
+      <div class="resp-card resp-citizens">
+        <h3 class="resp-title">👥 Citizens / Customers</h3>
+        <div class="resp-panels">
+          <div class="resp-bad">
+            <span class="resp-x">❌</span>
+            <p>Do not intentionally request or encourage an undocumented transaction.</p>
+          </div>
+          <div class="resp-good">
+            <span class="resp-check">✅</span>
+            <p>Request and keep the proper receipt when applicable.</p>
+          </div>
+        </div>
+      </div>
+      <div class="resp-card resp-business">
+        <h3 class="resp-title">🏪 Businesses</h3>
+        <div class="resp-panels">
+          <div class="resp-bad">
+            <span class="resp-x">❌</span>
+            <p>Do not hide or under-report lawful transactions.</p>
+          </div>
+          <div class="resp-good">
+            <span class="resp-check">✅</span>
+            <p>Issue accurate receipts and report applicable taxes correctly.</p>
+          </div>
+        </div>
+      </div>
+      <div class="resp-card resp-govt">
+        <h3 class="resp-title">🏛️ Government &amp; Authorities</h3>
+        <div class="resp-panels">
+          <div class="resp-bad">
+            <span class="resp-x">❌</span>
+            <p>Do not allow collected public revenue to disappear through inefficiency, misuse, or lack of accountability.</p>
+          </div>
+          <div class="resp-good">
+            <span class="resp-check">✅</span>
+            <p>Use public revenue transparently, efficiently, and for genuine public benefit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     7. ADVICE TO GOVERNMENT
+     ═══════════════════════════════════════════ -->
+<section id="govt" class="govt-section">
+  <div class="container">
+    <div class="govt-card">
+      <h2 class="govt-title">Tax Collection Is Only Half the Responsibility</h2>
+      <blockquote class="govt-quote">
+        "Collecting taxes creates public resources; using those resources wisely creates public value."
+      </blockquote>
+      <div class="govt-process">
+        <div class="govt-step">Collect</div>
+        <div class="govt-arrow">→</div>
+        <div class="govt-step">Record</div>
+        <div class="govt-arrow">→</div>
+        <div class="govt-step">Audit</div>
+        <div class="govt-arrow">→</div>
+        <div class="govt-step">Protect</div>
+        <div class="govt-arrow">→</div>
+        <div class="govt-step">Invest</div>
+        <div class="govt-arrow">→</div>
+        <div class="govt-step">Report</div>
+        <div class="govt-arrow">→</div>
+        <div class="govt-step">Improve</div>
+      </div>
+      <p class="govt-text">When legally collected public revenue is managed transparently, efficiently, and responsibly, it can contribute to stronger institutions, better services, improved infrastructure, and better opportunities for future generations.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     8. THINK BEYOND TODAY
+     ═══════════════════════════════════════════ -->
+<section id="beyond" class="beyond-section">
+  <div class="container">
+    <div class="beyond-card">
+      <h2 class="beyond-title">Think Beyond Today</h2>
+      <p class="beyond-text">A small decision made during an ordinary purchase can be part of a much larger system. Transparent transactions strengthen accountability. Responsible tax collection strengthens public resources. Responsible public spending turns those resources into services and opportunities.</p>
+      <div class="beyond-flow">
+        <div class="beyond-box">
+          <span class="beyond-label">Today's Transparency</span>
+        </div>
+        <div class="beyond-arrow">→</div>
+        <div class="beyond-box">
+          <span class="beyond-label">Tomorrow's Opportunity</span>
+        </div>
+      </div>
+      <div class="beyond-tags">
+        <span class="beyond-tag pulse">Children</span>
+        <span class="beyond-tag pulse" style="--delay:0.3s">Families</span>
+        <span class="beyond-tag pulse" style="--delay:0.6s">Communities</span>
+        <span class="beyond-tag pulse" style="--delay:0.9s">Future Generations</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     9. FINAL AWARENESS MESSAGE
+     ═══════════════════════════════════════════ -->
+<section id="final" class="final-section">
+  <div class="container">
+    <div class="final-card">
+      <h2 class="final-title">The Goal Is Not Simply to Pay More. The Goal Is to Build Trust.</h2>
+      <p class="final-text">Fair taxation, accurate receipts, honest businesses, responsible citizens, transparent institutions, and accountable public spending must work together.</p>
+      <div class="final-flow">
+        <div class="final-step">Honest Transaction</div>
+        <div class="final-arrow">↓</div>
+        <div class="final-step">Correct Record</div>
+        <div class="final-arrow">↓</div>
+        <div class="final-step">Correct Tax</div>
+        <div class="final-arrow">↓</div>
+        <div class="final-step">Public Revenue</div>
+        <div class="final-arrow">↓</div>
+        <div class="final-step">Responsible Spending</div>
+        <div class="final-arrow">↓</div>
+        <div class="final-step">Better Services</div>
+        <div class="final-arrow">↓</div>
+        <div class="final-step">Stronger Future</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     10. THE END
+     ═══════════════════════════════════════════ -->
+<section id="end" class="end-section">
+  <div class="container">
+    <h2 class="end-title">The End</h2>
+    <p class="end-text">A better future begins with responsible decisions today.</p>
+    <footer class="end-signature">Azmat Ali</footer>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
